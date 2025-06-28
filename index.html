@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Météo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Img/logo.ico"/>
+</head>
+<body>
+    <!-----------------------------Navbar----------------------------->
+    <div class="navbar">
+        <div class="logo-container">
+            <img src="Img/logo.png" class="logo"/>
+            <h2>Ma Météo</h2>
+        </div>
+        <div class="search-container">
+            <input type="text" id="cityInput" placeholder="Entrez une ville ou un code postal"/>
+            <button class="offset" id="search-button">
+                Rechercher
+            <span class="icon">🔍</span>
+            </button>
+        </div>
+    </div>
+
+    <!-----------------------------Affichage Météo----------------------------->
+    <div class="container">
+        <h1>Ma Météo</h1>
+
+        <div id="weatherResult" class="hidden">
+            <h2 id="cityName"></h2>
+            <img id="weatherIcon" src="" alt="Icône météo" />
+            <h2 id="temperature"></h2>
+        </div>
+    </div>
+
+    <script src="meteo.js"></script>
+</body>
+</html>
