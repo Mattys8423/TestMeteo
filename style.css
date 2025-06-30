@@ -61,7 +61,7 @@ button {
 }
 
 button {
-    color: var(--color);
+    color: #006bc1;
     transition: 0.25s;
 }
 
@@ -79,7 +79,7 @@ button {
     }
 
 .offset {
-    --color: Black;
+    --color: #0078d8;
     --hover: #0078d8;
 }
 
